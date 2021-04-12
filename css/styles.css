@@ -96,7 +96,7 @@ font-weight: 300;
 }
 
 
-/* SECTION*/
+/* SECTION HOME*/
 section{
   padding-top: 5%;
   padding-bottom: 5%;
@@ -124,7 +124,7 @@ section{
 
 
 .porque1 img{
-  width: 100%;
+  width: 70%;
 }
 
 .porque1Text{
