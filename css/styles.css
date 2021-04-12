@@ -313,7 +313,9 @@ padding-left: 10% ;
 padding-right: 10% ;
 }
 
-
+.dropdown{
+  display: none;
+}
 
 .logIn{
   background-color: #160E1F;
@@ -386,7 +388,7 @@ nav a{
       padding-left: 2rem;
   }
 
-header li{
+.Opciones li{
 
   list-style: none ;
   position: relative ;
@@ -397,14 +399,14 @@ header li{
 .subMenu2{
   margin: 8px ;
 }
-header ul{
+.Opciones ul{
   padding-top: 20px ;
   background-color: white ;
   list-style: none ;
   display: none ;
 }
 
-a:hover + ul , ul:hover {
+a:hover + .subMenu1 , .subMenu1:hover {
 		display: block ;
     position:absolute ;
     top:10px ;
@@ -581,10 +583,12 @@ footer .Logo{
   }
 
   @media (max-width:500px) {
-
+    .dropdown{
+      display: contents;
+    }
     .Opciones{
 
-      flex-wrap: wrap ;
+      display: none;
 
     }
     }
