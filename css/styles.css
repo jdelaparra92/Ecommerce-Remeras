@@ -110,6 +110,13 @@ section {
 
 /* main*/
 /* ofertas seccion*/
+.ContOfer {
+  padding-top: 6%;
+  padding-bottom: 6%; }
+
+.OfertasProd {
+  margin-top: 5%; }
+
 /* ofertas home*/
 .Ofertas {
   margin-top: 60px;
@@ -159,6 +166,31 @@ section {
   color: White;
   padding: 10px;
   text-decoration: none; }
+
+/* Seccion productos Home*/
+.ContenedorSecProdContenedor {
+  padding-top: 2%;
+  padding-bottom: 2%;}
+
+.SecProdContenedor {
+  display: flex;
+  flex-wrap:nowrap;
+  flex-direction: row;
+  justify-content: center;}
+
+.SecProd {
+  width: 600px;
+  height: 450px;
+  background-color: red;
+  margin: 1%;}
+
+.Prod {
+  width: 100%;
+  height: 215px;
+  background-color: blue;}
+
+.Prod:first-child {
+  margin-bottom: 20px;}
 
 /* TABLA*/
 .medidas {
@@ -396,7 +428,7 @@ input {
   font-weight: 500;
   text-decoration: none;
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 7px;
   padding: 4px 16px;
   transition: 0.5s; }
 
@@ -413,7 +445,7 @@ input {
   font-weight: 500;
   text-decoration: none;
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 7px;
   padding: 4px 16px;
   transition: 0.5s; }
 
@@ -470,6 +502,8 @@ footer .Logo {
     margin: 15px; } }
 
 @media (max-width: 500px) {
+  .buscador {
+    margin-top: 30px; }
   .dropdown {
     display: contents; }
   .Opciones {
