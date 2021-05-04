@@ -552,7 +552,7 @@ input {
 
 /* FOOTER*/
 footer {
-  background: linear-gradient(180deg, #160E1F, #19133F);
+  background: linear-gradient(180deg, #19133F, #160E1F);
   height: auto;
   display: flex;
   flex-wrap: nowrap;
