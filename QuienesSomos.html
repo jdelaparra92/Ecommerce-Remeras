@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Quienes Somos</title>
   </head>
   <body>
@@ -17,11 +18,6 @@
 
 
     <header>
-
-    <div class="logIn">
-      <a href="login.html">Log in</a>
-      <a href="#">Log Out</a>
-    </div>
 
 
      <nav>
@@ -32,7 +28,7 @@
 
 
 
-      <div class="dropdown">
+      <div class="dropdown dropdown1">
   <a class="botones2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     MENU
   </a>
@@ -43,7 +39,7 @@
       <ul>
                   <li class="dropdown-item">  <a  href="Categoria.html">Remeras</a></li>
                   <li class="dropdown-item">  <a  href="Categoria2.html">Buzos</a></li>
-                  <li class="dropdown-item">  <a  href="Categoria3.html">Accesorios</a></li>
+                  <li class="dropdown-item">  <a  href="Categoria3.html">Cinturones</a></li>
 
           </ul></li>
     <li><a class="dropdown-item" href="Ofertas.html">Ofertas</a></li>
@@ -61,18 +57,29 @@
             <ul class="subMenu1">
                         <li class="subMenu2">  <a  href="Categoria.html">Remeras</a></li>
                         <li class="subMenu2">  <a  href="Categoria2.html">Buzos</a></li>
-                        <li class="subMenu2">  <a  href="Categoria3.html">Accesorios</a></li>
+                        <li class="subMenu2">  <a  href="Categoria3.html">Cinturones</a></li>
 
                 </ul></li>
           <a href="Ofertas.html">Ofertas</a>
           <a href="Contacto.html">Contacto</a>
         </ul>
       </div>
-
+      <div class="logIn__Carrito">
+        <a href="login.html"><img src="img/Usuario.png" alt=""></a>
+        <a href="Carrito.html"><img src="img/Carrito.png" alt=""></a>
+      </div>
 
       <div class="buscador">
-        <button class="botones">Buscar</button>
-        <input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30">
+
+        <div class="dropdown ">
+    <button class="botones dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Buscar
+    </button>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30"></li>
+    </ul>
+  </div>
       </div>
 
      </nav>
@@ -80,14 +87,18 @@
 
     </header>
 
-    <div class="contenedorG">
 
-    <div class="grid grid1"> </div>
-    <div class="grid grid3"> <h2 class="subTitulo1">¿Quienes Somos?</h2>
+
+
+
+    <div class="contenedorGrids">
+
+
+    <div class="gridBase grid1"> <h2 class="subTitulo1">¿Quienes Somos?</h2>
     <br><hr><br><br>
     <p class="Texto1">Somos una empresa familiar, con un liderazgo mantenido por muchos años en el rubro del estampado de remeras, buzos y otras prendas, con más de 25 años de experiencia en este rubro textil.
     <br><br>
-    Más de 2200 Ventas en todo el pais y expandiendonos a la venta internacional del mismo
+    Más de 2200 Ventas en todo el pais y expandiendonos a la venta internacional del mismo.
     <br><br>
     Para su proyecto analizaremos sus necesidades, sus comodidades y su comercialización para que rinda su inversión. No es solo un cambio de ropa, es mucho más que eso. Por lo tanto lo asesoraremos para que su estampado sea acorde a sus gustos.
     <br><br>
@@ -95,35 +106,35 @@
     <br><br>
     Nuestra empresa garantiza que el cliente este 100% satisfecho con el producto adquirido.</p>
     <br><br><hr></div>
-    <div class="grid grid1"> </div>
-    <div class="grid grid3">
+
+    <div class="gridBase grid2">
       <div class="mision">
 
-      <div class="misionS">
+      <div class="misionS wow animate__animated animate__shakeY">
         <img src="img/mision.png" alt="">
         <h3 class="subTitulo1">Mision</h3>
-        <p class="Texto1">Ofrecer una amplia variedad de modelos de remeras y satisfacercon las necesidades de nuestro cliente</p>
+        <p class="Texto1">Ofrecer una amplia variedad de modelos de remeras y satisfacer con las necesidades de nuestro cliente.</p>
       </div>
 
-      <div class="misionS">
-        <img src="img/mision.png" alt="">
+      <div class="misionS wow animate__animated animate__shakeY">
+        <img src="img/vision.png" alt="">
         <h3 class="subTitulo1">Vision</h3>
         <p class="Texto1">Ser la empresa más reconocida del país en el rubro textil por nuestra calidad de producto y atención al cliente.</p>
       </div>
 
       </div>
     </div>
-    <div class="grid grid2"> </div>
-    <div class="grid grid1"> </div>
-    <div class="grid grid3">
-      <hr><br><br>
+
+    <div class="gridBase grid3">
+
       <h3 class="subTitulo1">Como estampamos nuestras remeras</h3>
       <br><br>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/vMTn3JBDkD0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br>
+
+
+    <iframe  src="https://www.youtube.com/embed/vMTn3JBDkD0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </div>
-    <div class="grid grid2"> </div>
+
 
     </div>
 
@@ -163,6 +174,12 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
   </body>
 </html>

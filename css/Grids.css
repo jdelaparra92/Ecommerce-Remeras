@@ -3,31 +3,113 @@
   padding: 0;
 }
 
-.contenedorG{
-  display: grid;
-  grid-template-columns:2fr 2fr  2fr 2fr 2fr 2fr;
-  row-gap: 10px;
+.mision{
+  height: auto;
+  display: flex ;
+  flex-wrap: nowrap ;
+  flex-direction: row ;
   justify-content: center;
+
+
 }
 
-.grid{
+.misionS{
+  border-radius: 6px;
+  background-color:#f5f5f5;
+  width: 400px;
+  margin-left: 2%;
+  margin-right: 2%;
+  overflow: hidden;
 
-  padding: 30px;
+}
+
+.misionS img {
+  width: 100% ;
+  height: auto;
+}
+
+.contenedorGrids{
+  display: grid;
+  grid-template-columns: [x0] 1fr [x1] 1fr [x2] 1fr [x3] 1fr [x4] 1fr  [x5]1fr [x6]1fr;
+  grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3] 1fr [y4] 1fr [y5] 1fr [y6] 0px;
+  row-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridBase{
   text-align: center;
-
+  grid-row-gap: 15px;
 }
 
 .grid1{
-
-  grid-column: 1 / 1;
+  grid-column: x1 / x6;
+  grid-row: y0 / y2;
 }
 
 .grid2{
-
-grid-column: 6/6;
+  background-image: url("../img/FondoQuienes.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  grid-column: x0 / x7;
+  grid-row: y2 / y4;
+  padding-top:4%;
+  padding-bottom:4%;
 }
 
 .grid3{
-
-grid-column: 2/6;
+  padding-top:4%;
+  padding-bottom:4%;
+  grid-column: x1 / x6;
+  grid-row: y4 / y6;
 }
+
+iframe{
+  width: 560px;
+  height: 315px;
+}
+
+@media (max-width:750px) {
+
+
+.contenedorGrids{
+    grid-template-rows: [y0] 1fr [y1] 1fr [y2] 1fr [y3] 1fr [y4] 120px [y5] 120px [y6] 120px;
+
+ }
+
+
+  iframe{
+    width: 280px;
+    height: 157.5px;
+  }
+
+  .mision{
+    flex-wrap: wrap ;
+    flex-direction: column ;
+    align-items: center;
+    margin-top: 25px ;
+  }
+  .misionS{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width: 350px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+  }
+
+  @media (max-width:400px) {
+
+    iframe{
+      width: 233px;
+      height: 131.25px;
+    }
+
+    .misionS{
+      width: 250px;
+    }
+
+  }

@@ -18,11 +18,6 @@
 
     <header>
 
-    <div class="logIn">
-      <a href="login.html">Log in</a>
-      <a href="#">Log Out</a>
-    </div>
-
 
      <nav>
 
@@ -32,24 +27,24 @@
 
 
 
-      <div class="dropdown">
-    <a class="botones2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      <div class="dropdown dropdown1">
+  <a class="botones2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     MENU
-    </a>
+  </a>
 
-    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
     <li><a class="dropdown-item" href="QuienesSomos.html">Quienes Somos</a></li>
     <li><a  class="dropdown-item" href="Categoria.html">Categoria</a>
       <ul>
                   <li class="dropdown-item">  <a  href="Categoria.html">Remeras</a></li>
                   <li class="dropdown-item">  <a  href="Categoria2.html">Buzos</a></li>
-                  <li class="dropdown-item">  <a  href="Categoria3.html">Accesorios</a></li>
+                  <li class="dropdown-item">  <a  href="Categoria3.html">Cinturones</a></li>
 
           </ul></li>
     <li><a class="dropdown-item" href="Ofertas.html">Ofertas</a></li>
     <li><a class="dropdown-item" href="Contacto.html">Contacto</a></li>
-    </ul>
-    </div>
+  </ul>
+</div>
 
 
 
@@ -61,18 +56,29 @@
             <ul class="subMenu1">
                         <li class="subMenu2">  <a  href="Categoria.html">Remeras</a></li>
                         <li class="subMenu2">  <a  href="Categoria2.html">Buzos</a></li>
-                        <li class="subMenu2">  <a  href="Categoria3.html">Accesorios</a></li>
+                        <li class="subMenu2">  <a  href="Categoria3.html">Cinturones</a></li>
 
                 </ul></li>
           <a href="Ofertas.html">Ofertas</a>
           <a href="Contacto.html">Contacto</a>
         </ul>
       </div>
-
+      <div class="logIn__Carrito">
+        <a href="login.html"><img src="img/Usuario.png" alt=""></a>
+        <a href="Carrito.html"><img src="img/Carrito.png" alt=""></a>
+      </div>
 
       <div class="buscador">
-        <button class="botones">Buscar</button>
-        <input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30">
+
+        <div class="dropdown ">
+    <button class="botones dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Buscar
+    </button>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30"></li>
+    </ul>
+  </div>
       </div>
 
      </nav>
@@ -85,15 +91,15 @@
 
 <div class="log">
     <div class="login-box">
-      <h1>Login Here</h1>
+      <h1>Ingrese Aqui</h1>
       <form>
-        <label for="username">Username</label>
-        <input type="text" placeholder="Enter Username">
-        <label for="password">Password</label>
-        <input type="password" placeholder="Enter Password">
+        <label for="username">Usuario</label>
+        <input type="text" placeholder="Ingresar Usuario">
+        <label for="password">Contraseña</label>
+        <input type="password" placeholder="Ingresar Contraseña">
         <input class="botones" type="submit" value="Log In">
-        <a href="#">Lost your Password?</a><br>
-        <a href="#">Don't have An account?</a>
+        <a href="#">Perdiste tu contraseña?</a><br>
+        <a href="Registro.html">No tienes una cuenta? <b> CREAR CUENTA</b></a>
       </form>
     </div>
    </div>
@@ -129,5 +135,8 @@
 
 
     </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>

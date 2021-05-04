@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8">
@@ -18,11 +19,6 @@
 
     <header>
 
-    <div class="logIn">
-      <a href="login.html">Log in</a>
-      <a href="#">Log Out</a>
-    </div>
-
 
      <nav>
 
@@ -32,7 +28,7 @@
 
 
 
-      <div class="dropdown">
+      <div class="dropdown dropdown1">
   <a class="botones2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     MENU
   </a>
@@ -43,7 +39,7 @@
       <ul>
                   <li class="dropdown-item">  <a  href="Categoria.html">Remeras</a></li>
                   <li class="dropdown-item">  <a  href="Categoria2.html">Buzos</a></li>
-                  <li class="dropdown-item">  <a  href="Categoria3.html">Accesorios</a></li>
+                  <li class="dropdown-item">  <a  href="Categoria3.html">Cinturones</a></li>
 
           </ul></li>
     <li><a class="dropdown-item" href="Ofertas.html">Ofertas</a></li>
@@ -61,18 +57,29 @@
             <ul class="subMenu1">
                         <li class="subMenu2">  <a  href="Categoria.html">Remeras</a></li>
                         <li class="subMenu2">  <a  href="Categoria2.html">Buzos</a></li>
-                        <li class="subMenu2">  <a  href="Categoria3.html">Accesorios</a></li>
+                        <li class="subMenu2">  <a  href="Categoria3.html">Cinturones</a></li>
 
                 </ul></li>
           <a href="Ofertas.html">Ofertas</a>
           <a href="Contacto.html">Contacto</a>
         </ul>
       </div>
-
+      <div class="logIn__Carrito">
+        <a href="login.html"><img src="img/Usuario.png" alt=""></a>
+        <a href="Carrito.html"><img src="img/Carrito.png" alt=""></a>
+      </div>
 
       <div class="buscador">
-        <button class="botones">Buscar</button>
-        <input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30">
+
+        <div class="dropdown ">
+    <button class="botones dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Buscar
+    </button>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30"></li>
+    </ul>
+  </div>
       </div>
 
      </nav>
@@ -84,59 +91,129 @@
 
 
   <div class="ContOfer">
-
-<center>
-<h2 subTitulo1>Ofertas</h2>
-</center>
+    <div class="Of">
+      <center>
+    <h2 class="subTitulo1">PRODUCTOS EN OFERTA</h2>
+    <p class="Texto1">Los productos en oferta mas vendidos</p>
+  </center>
+    </div>
 <br>
 <div class="container">
-<div class="row">
+<div class="row gap-4 justify-content-center">
 
-<div class="col-3 justify-content-center OfertasProd wow animate__animated animate__flipInX">
-<img class="img-fluid img-thumbnail" src="img/oferta.jpg" alt="">
-<a class="botones" href="#">Detalles</a>
+  <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 justify-content-center OfertasProd wow animate__animated animate__flipInX">
+  <div class="OfertasProdImg">
+  <img class=" " src="img/oferta.png" alt="">
+  </div>
 
-</div>
+  <div class="OfertasProdInfo">
+  <h3 class="subTituloC"><font color="#19133F"><b>OFERTA</b></font></h3>
+    <p class="Texto1Thin">100% Algodon</p>
+    <h2 class="subTitulo1">Remera Estampada</h2><br>
+  <p class="PrecioTachado">599.99</p>
+    <p class="textoPrecio2"><font color="#B70606"> 499.99</font></p>
+    <a class="botones" href="detalle.html">Detalles</a>
+  </div>
 
-<div class="col-3 justify-content-center OfertasProd wow animate__animated animate__flipInX">
-<img class="img-fluid img-thumbnail" src="img/oferta.jpg" alt="">
-<a class="botones" href="#">Detalles</a>
+  </div>
 
-</div>
 
-<div class="col-3 justify-content-center OfertasProd wow animate__animated animate__flipInX">
-<img class="img-fluid img-thumbnail" src="img/oferta.jpg" alt="">
-<a class="botones" href="#">Detalles</a>
 
-</div>
+  <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 justify-content-center OfertasProd wow animate__animated animate__flipInX">
+  <div class="OfertasProdImg">
+  <img class=" " src="img/oferta2.png" alt="">
+  </div>
 
-<div class="col-3 justify-content-center OfertasProd wow animate__animated animate__flipInX">
-<img class="img-fluid img-thumbnail" src="img/oferta.jpg" alt="">
-<a class="botones" href="#">Detalles</a>
+  <div class="OfertasProdInfo">
+  <h3 class="subTituloC"><font color="#19133F"><b>OFERTA</b></font></h3>
+    <p class="Texto1Thin">100% Algodon</p>
+    <h2 class="subTitulo1">Remera Estampada</h2><br>
+  <p class="PrecioTachado">599.99</p>
+    <p class="textoPrecio2"><font color="#B70606"> 499.99</font></p>
+    <a class="botones" href="detalle.html">Detalles</a>
+  </div>
 
-</div>
+  </div>
 
-<div class="col-3 justify-content-center OfertasProd wow animate__animated animate__flipInX">
-<img class="img-fluid img-thumbnail" src="img/oferta.jpg" alt="">
-<a class="botones" href="#">Detalles</a>
 
-</div>
 
-<div class="col-3 justify-content-center OfertasProd wow animate__animated animate__flipInX">
-<img class="img-fluid img-thumbnail" src="img/oferta.jpg" alt="">
-<a class="botones" href="#">Detalles</a>
+  <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 justify-content-center OfertasProd wow animate__animated animate__flipInX">
+  <div class="OfertasProdImg">
+  <img class=" " src="img/oferta3.png" alt="">
+  </div>
 
-</div>
-<div class="col-3 justify-content-center OfertasProd wow animate__animated animate__flipInX">
-<img class="img-fluid img-thumbnail" src="img/oferta.jpg" alt="">
-<a class="botones" href="#">Detalles</a>
+  <div class="OfertasProdInfo">
+  <h3 class="subTituloC"><font color="#19133F"><b>OFERTA</b></font></h3>
+    <p class="Texto1Thin">100% Algodon</p>
+    <h2 class="subTitulo1">Remera Estampada</h2><br>
+  <p class="PrecioTachado">599.99</p>
+    <p class="textoPrecio2"><font color="#B70606"> 499.99</font></p>
+    <a class="botones" href="detalle.html">Detalles</a>
+  </div>
 
-</div>
-<div class="col-3 justify-content-center OfertasProd wow animate__animated animate__flipInX">
-<img class="img-fluid img-thumbnail" src="img/oferta.jpg" alt="">
-<a class="botones" href="#">Detalles</a>
+  </div>
 
-</div>
+
+
+  <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 justify-content-center OfertasProd wow animate__animated animate__flipInX">
+  <div class="OfertasProdImg">
+  <img class=" " src="img/oferta4.png" alt="">
+  </div>
+
+  <div class="OfertasProdInfo">
+  <h3 class="subTituloC"><font color="#19133F"><b>OFERTA</b></font></h3>
+    <p class="Texto1Thin">100% Algodon</p>
+    <h2 class="subTitulo1">Remera Estampada</h2><br>
+  <p class="PrecioTachado">599.99</p>
+    <p class="textoPrecio2"><font color="#B70606"> 499.99</font></p>
+    <a class="botones" href="detalle.html">Detalles</a>
+  </div>
+
+  </div>
+
+
+
+  <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 justify-content-center OfertasProd wow animate__animated animate__flipInX">
+  <div class="OfertasProdImg">
+  <img class=" " src="img/oferta5.png" alt="">
+  </div>
+
+  <div class="OfertasProdInfo">
+  <h3 class="subTituloC"><font color="#19133F"><b>OFERTA</b></font></h3>
+    <p class="Texto1Thin">100% Algodon</p>
+    <h2 class="subTitulo1">Remera Estampada</h2><br>
+  <p class="PrecioTachado">599.99</p>
+    <p class="textoPrecio2"><font color="#B70606"> 499.99</font></p>
+    <a class="botones" href="detalle.html">Detalles</a>
+  </div>
+
+  </div>
+
+
+
+  <div class="col-lg-5 col-md-12col-sm-12 col-xs-12 justify-content-center OfertasProd wow animate__animated animate__flipInX">
+  <div class="OfertasProdImg">
+  <img class=" " src="img/oferta6.png" alt="">
+  </div>
+
+  <div class="OfertasProdInfo">
+  <h3 class="subTituloC"><font color="#19133F"><b>OFERTA</b></font></h3>
+    <p class="Texto1Thin">100% Algodon</p>
+    <h2 class="subTitulo1">Remera Estampada</h2><br>
+  <p class="PrecioTachado">599.99</p>
+    <p class="textoPrecio2"><font color="#B70606"> 499.99</font></p>
+    <a class="botones" href="detalle.html">Detalles</a>
+  </div>
+
+  </div>
+
+  <center>
+  <a class="botones2"href="#">Ver mas Productos</a>
+  </center>
+
+
+
+
 
 
 

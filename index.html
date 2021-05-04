@@ -17,11 +17,6 @@
 
     <header>
 
-    <div class="logIn">
-      <a href="login.html">Log in</a>
-      <a href="#">Log Out</a>
-    </div>
-
 
      <nav>
 
@@ -31,7 +26,7 @@
 
 
 
-      <div class="dropdown">
+      <div class="dropdown dropdown1">
   <a class="botones2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     MENU
   </a>
@@ -42,7 +37,7 @@
       <ul>
                   <li class="dropdown-item">  <a  href="Categoria.html">Remeras</a></li>
                   <li class="dropdown-item">  <a  href="Categoria2.html">Buzos</a></li>
-                  <li class="dropdown-item">  <a  href="Categoria3.html">Accesorios</a></li>
+                  <li class="dropdown-item">  <a  href="Categoria3.html">Cinturones</a></li>
 
           </ul></li>
     <li><a class="dropdown-item" href="Ofertas.html">Ofertas</a></li>
@@ -60,18 +55,29 @@
             <ul class="subMenu1">
                         <li class="subMenu2">  <a  href="Categoria.html">Remeras</a></li>
                         <li class="subMenu2">  <a  href="Categoria2.html">Buzos</a></li>
-                        <li class="subMenu2">  <a  href="Categoria3.html">Accesorios</a></li>
+                        <li class="subMenu2">  <a  href="Categoria3.html">Cinturones</a></li>
 
                 </ul></li>
           <a href="Ofertas.html">Ofertas</a>
           <a href="Contacto.html">Contacto</a>
         </ul>
       </div>
-
+      <div class="logIn__Carrito">
+        <a href="login.html"><img src="img/Usuario.png" alt=""></a>
+        <a href="Carrito.html"><img src="img/Carrito.png" alt=""></a>
+      </div>
 
       <div class="buscador">
-        <button class="botones">Buscar</button>
-        <input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30">
+
+        <div class="dropdown Buscador ">
+    <button class="botones dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Buscar
+    </button>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30"></li>
+    </ul>
+  </div>
       </div>
 
      </nav>
@@ -95,24 +101,18 @@
       <div class="carousel-item active">
         <img src="img/carrusel1.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1 class="Titulo1">NUEVOS PRODUCTOS</h1>
-          <p class="subTitulo1">detalles del producto</p>
           <a class="botones"href="ofertas.html"><h3>Ver Mas</h3></a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1 class="Titulo1">NUEVOS PRODUCTOS</h1>
-          <p class="subTitulo1">detalles del producto</p>
-          <a class="botones"href="ofertas.html"><h3>Ver Mas</h3></a>
+          <a class="botones2"href="ofertas.html"><h3>Ver Mas</h3></a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h1 class="Titulo2">NUEVOS PRODUCTOS</h1>
-          <p class="subTitulo2">detalles del producto</p>
           <a class="botones"href="ofertas.html"><h3>Ver Mas</h3></a>
         </div>
       </div>
@@ -128,8 +128,11 @@
   </div>
 
 
-
 </main>
+
+
+
+
 
 
 
@@ -140,17 +143,17 @@
 <div class="SecProdContenedor">
 
 <div class="SecProd wow animate__animated animate__fadeInDown">
-
-
-</div>
-
-
-<div class="SecProd wow animate__animated animate__fadeInDown">
-<div class="Prod">
+<a href="detalle.html"><img src="img/seccionR.jpg" alt=""></a>
 
 </div>
-<div class="Prod">
 
+
+<div class="SecProd2 wow animate__animated animate__fadeInDown">
+<div class="Prod">
+<a href="detalle2.html"><img src="img/seccionB.jpg" alt=""></a>
+</div>
+<div class="Prod">
+<a href="detalle3.html"><img src="img/seccionA.jpg" alt=""></a>
 </div>
 </div>
 
@@ -168,9 +171,9 @@
 
 
 <section>
-<h2 class="subTitulo1"><b>Porque confiar en nosotros</b></h2>
+<h2 class="subTitulo1">PORQUE CONFIAR EN NOSOTROS</h2>
 
-<div class="porque">
+<div class="porqueContenedor">
 
 
 <div class="porque1 wow animate__animated animate__slideInLeft ">
@@ -207,80 +210,149 @@
 
 <div class="Ofertas">
   <div class="Of">
-  <h2 class="subTitulo2">Productos en oferta <a href="#">ver mas</a></h2>
+    <center>
+  <h2 class="subTitulo1">PRODUCTOS EN OFERTA</h2>
+  <p class="Texto1">Los productos en oferta mas vendidos</p>
+</center>
   </div>
 
 <div class="ProdOf">
 
-  <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre</h3>
-    <p class="Texto1">detalles del producto</p>
-    <a class="botones" href="detalle.html">Ver Mas</a>
-  </div>
 
   <div class="Pofertas">
     <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre</h3>
-    <p class="Texto1">detalles del producto</p>
+    <div class="PoCont">
+    <h3 class="subTitulo3">Remera</h3>
+    <p class="Texto1">Estampada de 100% algodon</p>
+    <p class="PrecioTachado">599.99</p>
+      <p class="textoPrecio2"><font color="#B70606"> 499.99</font></p>
     <a class="botones" href="detalle.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/remera7.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Remera</h3>
+    <p class="Texto1">Estampada de 100% algodon</p>
+    <p class="PrecioTachado">599.99$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 499.99$</font></p>
     <a class="botones" href="detalle.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre</h3>
-    <p class="Texto1">detalles del producto</p>
-    <a class="botones" href="detalle.html">Ver Mas</a>
+    <img src="img/buzo.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Buzo</h3>
+    <p class="Texto1">Estampado de 100% algodon</p>
+    <p class="PrecioTachado">899.99$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 500.00$</font></p>
+    <a class="botones" href="detalle2.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre</h3>
-    <p class="Texto1">detalles del producto</p>
-    <a class="botones" href="detalle.html">Ver Mas</a>
+    <img src="img/cinturon7.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="PrecioTachado">1300$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 1000$</font></p>
+    <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre </h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/remera8.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Remera</h3>
+    <p class="Texto1">Estampada de 100% algodon</p>
+    <p class="PrecioTachado">599.99$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 499.99$</font></p>
     <a class="botones" href="detalle.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre</h3>
-    <p class="Texto1">detalles del producto</p>
-    <a class="botones" href="detalle.html">Ver Mas</a>
+    <img src="img/cinturon2.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="PrecioTachado">1300$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 1000$</font></p>
+    <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre </h3>
-    <p class="Texto1">detalles del producto</p>
-    <a class="botones" href="detalle.html">Ver Mas</a>
+    <img src="img/cinturon3.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="PrecioTachado">1300$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 1000$</font></p>
+    <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/remera11.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Remera</h3>
+    <p class="Texto1">Estampada de 100% algodon</p>
+    <p class="PrecioTachado">599.99$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 499.99$</font></p>
     <a class="botones" href="detalle.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/remera.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre </h3>
-    <p class="Texto1">detalles del producto</p>
-    <a class="botones" href="detalle.html">Ver Mas</a>
+    <img src="img/buzo5.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Buzo</h3>
+    <p class="Texto1">Estampado de 100% algodon</p>
+    <p class="PrecioTachado">899.99$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 360.00$</font></p>
+    <a class="botones" href="detalle2.html">Ver Mas</a>
+    </div>
   </div>
+
+  <div class="Pofertas">
+    <img src="img/buzo9.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Buzo</h3>
+    <p class="Texto1">Estampado de 100% algodon</p>
+    <p class="PrecioTachado">700.99$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 499.99$</font></p>
+    <a class="botones" href="detalle2.html">Ver Mas</a>
+    </div>
+  </div>
+
+  <div class="Pofertas">
+    <img src="img/remera12.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Remera</h3>
+    <p class="Texto1">Estampada de 100% algodon</p>
+    <p class="PrecioTachado">599.99$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 499.99$</font></p>
+    <a class="botones" href="detalle.html">Ver Mas</a>
+    </div>
+  </div>
+
+  <div class="Pofertas">
+    <img src="img/remera4.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Remera</h3>
+    <p class="Texto1">Estampada de 100% algodon</p>
+    <p class="PrecioTachado">599.99$</p>
+      <p class="textoPrecio2"><font color="#B70606"> 499.99$</font></p>
+    <a class="botones" href="detalle.html">Ver Mas</a>
+    </div>
+  </div>
+
+
+
   </div>
 <center>
 <a class="botones2"href="Ofertas.html">Ver mas Productos en oferta</a>

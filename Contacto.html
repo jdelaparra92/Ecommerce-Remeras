@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8">
@@ -17,11 +18,6 @@
 
     <header>
 
-    <div class="logIn">
-      <a href="login.html">Log in</a>
-      <a href="#">Log Out</a>
-    </div>
-
 
      <nav>
 
@@ -31,7 +27,7 @@
 
 
 
-      <div class="dropdown">
+      <div class="dropdown dropdown1">
   <a class="botones2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     MENU
   </a>
@@ -42,7 +38,7 @@
       <ul>
                   <li class="dropdown-item">  <a  href="Categoria.html">Remeras</a></li>
                   <li class="dropdown-item">  <a  href="Categoria2.html">Buzos</a></li>
-                  <li class="dropdown-item">  <a  href="Categoria3.html">Accesorios</a></li>
+                  <li class="dropdown-item">  <a  href="Categoria3.html">Cinturones</a></li>
 
           </ul></li>
     <li><a class="dropdown-item" href="Ofertas.html">Ofertas</a></li>
@@ -60,18 +56,29 @@
             <ul class="subMenu1">
                         <li class="subMenu2">  <a  href="Categoria.html">Remeras</a></li>
                         <li class="subMenu2">  <a  href="Categoria2.html">Buzos</a></li>
-                        <li class="subMenu2">  <a  href="Categoria3.html">Accesorios</a></li>
+                        <li class="subMenu2">  <a  href="Categoria3.html">Cinturones</a></li>
 
                 </ul></li>
           <a href="Ofertas.html">Ofertas</a>
           <a href="Contacto.html">Contacto</a>
         </ul>
       </div>
-
+      <div class="logIn__Carrito">
+        <a href="login.html"><img src="img/Usuario.png" alt=""></a>
+        <a href="Carrito.html"><img src="img/Carrito.png" alt=""></a>
+      </div>
 
       <div class="buscador">
-        <button class="botones">Buscar</button>
-        <input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30">
+
+        <div class="dropdown ">
+    <button class="botones dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Buscar
+    </button>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30"></li>
+    </ul>
+  </div>
       </div>
 
      </nav>
@@ -97,22 +104,21 @@
    <legend class="Titulo1">Contacto</legend>
    <br>
    <br>
-    <label for="nombre">Nombre:</label>
-
+    <label for="nombre"><b>Nombre:</b></label>
     <br>
-    <input id="nombre" type="text" name="nombre" >
-    <br>
-    <label for="apellido">Apellido:</label>
-
-    <br>
-    <input id="apellido" type="text" name="apellido">
-    <br>
-    <label for="E-mail:">E-Mail</label>
-
-    <br>
-    <input id="email" type="email" name="email" >
+    <input class="InputForm" id="nombre" type="text" name="nombre" >
     <br><br>
-    <label>Barrio</label>
+
+    <label for="apellido"><b>Apellido:</b></label>
+    <br>
+    <input class="InputForm" id="apellido" type="text" name="apellido">
+    <br><br>
+
+    <label for="E-mail:"><b>E-Mail</b></label>
+    <br>
+    <input class="InputForm" id="email" type="email" name="email" >
+    <br><br><br>
+    <label><b>Barrio</b></label>
     <select class="" name="">
       <option value="">Caballito</option>
       <option value="">Almagro</option>
@@ -120,23 +126,23 @@
       <option value="">Saavedra</option>
       <option value="">otro</option>
     </select>
+    <br><br><br>
+    <label for="Género"><b>Género</b></label>
     <br><br>
-    <label for="Género">Género</label>
-    <br>
 
      <input type="radio" name="" value="">
      <label>Hombre</label>
      <input type="radio" name="" value="">
      <label >Mujer</label>
      <input type="radio" name="" value="">
-     <label >Otro</label><br><br>
+     <label >Otro</label><br><br><br>
      <input type="checkbox" name="TC" value="">
      <label>¿Desea recibir promociones de nuestros productos?</label><br><br>
-     <label for="text">Comentarios:</label>
+     <label for="text"><b>Comentarios:</b></label>
      <br>
      <textarea name="name" rows="8" cols="70"></textarea>
      <br>
-     <br>
+     <br><br>
 
 
     <input class="botones" type="submit" name="" value="Enviar">

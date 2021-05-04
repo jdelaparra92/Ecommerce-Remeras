@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="utf-8">
@@ -18,11 +19,6 @@
 
     <header>
 
-    <div class="logIn">
-      <a href="login.html">Log in</a>
-      <a href="#">Log Out</a>
-    </div>
-
 
      <nav>
 
@@ -32,7 +28,7 @@
 
 
 
-      <div class="dropdown">
+      <div class="dropdown dropdown1">
   <a class="botones2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
     MENU
   </a>
@@ -43,7 +39,7 @@
       <ul>
                   <li class="dropdown-item">  <a  href="Categoria.html">Remeras</a></li>
                   <li class="dropdown-item">  <a  href="Categoria2.html">Buzos</a></li>
-                  <li class="dropdown-item">  <a  href="Categoria3.html">Accesorios</a></li>
+                  <li class="dropdown-item">  <a  href="Categoria3.html">Cinturones</a></li>
 
           </ul></li>
     <li><a class="dropdown-item" href="Ofertas.html">Ofertas</a></li>
@@ -61,18 +57,29 @@
             <ul class="subMenu1">
                         <li class="subMenu2">  <a  href="Categoria.html">Remeras</a></li>
                         <li class="subMenu2">  <a  href="Categoria2.html">Buzos</a></li>
-                        <li class="subMenu2">  <a  href="Categoria3.html">Accesorios</a></li>
+                        <li class="subMenu2">  <a  href="Categoria3.html">Cinturones</a></li>
 
                 </ul></li>
           <a href="Ofertas.html">Ofertas</a>
           <a href="Contacto.html">Contacto</a>
         </ul>
       </div>
-
+      <div class="logIn__Carrito">
+        <a href="login.html"><img src="img/Usuario.png" alt=""></a>
+        <a href="Carrito.html"><img src="img/Carrito.png" alt=""></a>
+      </div>
 
       <div class="buscador">
-        <button class="botones">Buscar</button>
-        <input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30">
+
+        <div class="dropdown ">
+    <button class="botones dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Buscar
+    </button>
+
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><input type="search" id="buscar" name="buscar" placeholder="Buscar" size="30"></li>
+    </ul>
+  </div>
       </div>
 
      </nav>
@@ -124,12 +131,12 @@
            <td>70</td>
          </tr>
          <tr>
-           <td>Manga</td>
-           <td>20</td>
-           <td>23</td>
-           <td>25</td>
-           <td>28</td>
-           <td>30</td>
+           <td>Puntos</td>
+           <td>2</td>
+           <td>5</td>
+           <td>6</td>
+           <td>8</td>
+           <td>10</td>
          </tr>
 
       </tbody>
@@ -137,86 +144,250 @@
     </table>
 </div>
 
-<img class="animate__animated animate__slideInLeft " src="img/medidas.jpg" alt="">
+
+
+
+  <img class="cinturon animate__animated animate__slideInLeft " src="img/cinturonM.jpg" alt="">
+
+
 
 
 </div>
 
 <div class="Ofertas">
-  <div class="Of">
-  <h2 class="subTitulo2">Remeras </h2>
-  </div>
 
-<div class="ProdOf">
+
+  <center>
+    <div class="dropdown dropdown1">
+
+  <a class="botones2 dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+  FILTRAR
+  </a>
+
+
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+
+        <div class="custom-control custom-checkbox">
+          <h2 class="subTitulo3">Cuero</h2><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">marron</label><br><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">negro</label><br><br>
+        </div>
+      </li>
+
+      <li class="list-group-item">
+
+        <div class="custom-control custom-checkbox">
+          <h2 class="subTitulo3">Genero</h2><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">Hombre</label><br><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">Mujer</label><br><br>
+
+        </div>
+      </li>
+
+      <li class="list-group-item">
+
+        <div class="custom-control custom-checkbox">
+          <h2 class="subTitulo3">Tamaño</h2><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">S</label><br><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">M</label><br><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">L</label><br><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">XL</label><br><br>
+          <input type="checkbox" class="custom-control-input" id="check1" checked>
+          <label class="custom-control-label" for="check1">XXL</label>
+        </div>
+      </li>
+    </ul>
+  </ul>
+  </div>
+  </center>
+
+
+<div class="ProdOfC">
+<div class="ProdOf2">
+  <div class="container-fluid">
+
+    <h2 class="Titulo1">Cinturones</h2>
+    <hr class="Linea"><br><br>
+  <p class="font-weight-bold subTitulo1">FILTRAR</p>
+
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">
+
+      <div class="custom-control custom-checkbox">
+        <h2 class="subTitulo3">Cuero</h2><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">marron</label><br><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">negro</label><br><br>
+      </div>
+    </li>
+
+    <li class="list-group-item">
+
+      <div class="custom-control custom-checkbox">
+        <h2 class="subTitulo3">Genero</h2><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">Hombre</label><br><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">Mujer</label><br><br>
+
+      </div>
+    </li>
+
+    <li class="list-group-item">
+
+      <div class="custom-control custom-checkbox">
+        <h2 class="subTitulo3">Tamaño</h2><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">S</label><br><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">M</label><br><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">L</label><br><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">XL</label><br><br>
+        <input type="checkbox" class="custom-control-input" id="check1" checked>
+        <label class="custom-control-label" for="check1">XXL</label>
+      </div>
+    </li>
+
+  </ul>
+</div>
+</div>
+
+<div class="ProdOff">
 
   <div class="Pofertas">
     <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon2.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon3.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon4.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon5.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon6.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon7.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon8.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon9.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
   </div>
 
   <div class="Pofertas">
-    <img src="img/cinturon.jpg" alt="Producto">
-    <h3 class="subTitulo3">nombre del producto</h3>
-    <p class="Texto1">detalles del producto</p>
+    <img src="img/cinturon10.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
     <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
+  </div>
+
+  <div class="Pofertas">
+    <img src="img/cinturon11.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
+    <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
+  </div>
+
+  <div class="Pofertas">
+    <img src="img/cinturon12.jpg" alt="Producto">
+    <div class="PoCont">
+    <h3 class="subTitulo3">Cinturon</h3>
+    <p class="Texto1">100% Cuero</p>
+    <p class="textoPrecio2">1300$</p>
+    <a class="botones" href="detalle3.html">Ver Mas</a>
+    </div>
+  </div>
+
+
   </div>
   </div>
 <center>
